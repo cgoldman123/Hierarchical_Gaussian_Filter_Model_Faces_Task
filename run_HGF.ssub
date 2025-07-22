@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --mem=12000
 #SBATCH --nodes=1
-#SBATCH --chdir=/media/labs/rsmith/lab-members/cgoldman/Wellbeing/emotional_faces/VB_scripts/
+#SBATCH --chdir=/media/labs/rsmith/lab-members/osanchez/wellbeing/emotional_faces/Hierarchical_Gaussian_Filter_Model_Faces_Task/
 #SBATCH --begin=now
 #SBATCH --job-name=HGF-fit
 #SBATCH --time=00:15:00
@@ -43,5 +43,5 @@ export OBSERVATION_MODEL
 
 module load matlab/2022a
 #run_file='/media/labs/rsmith/lab-members/rhodson/emotional_faces/HGF_wrapper.m'
-run_file='/media/labs/rsmith/lab-members/cgoldman/Wellbeing/emotional_faces/VB_scripts/HGF_wrapper.m'
+run_file='/media/labs/rsmith/lab-members/osanchez/wellbeing/emotional_faces/Hierarchical_Gaussian_Filter_Model_Faces_Task/HGF_wrapper.m'
 matlab -nodisplay -nosplash < ${run_file}

@@ -8,7 +8,7 @@ str_run = 'dont fit just process behavior'; % set this to '' or 'dont fit just p
 if ispc
     root = 'L:/';    
     run = '1';   % MTurk Session 1,2,3
-    res_dir = 'L:/rsmith/lab-members/cgoldman/Wellbeing/emotional_faces/model_output_local/test';
+    res_dir = 'L:/rsmith/lab-members/cgoldman/wellbeing/emotional_faces/model_output/test';
     rt_model = false;
     p_or_r = 'r'; %prediction or responses (for binary hgf) - p=prediction, r=responses
     show_plot = true;
